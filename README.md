@@ -24,8 +24,7 @@ There are 4 C++ codes with different versions of geometric renormalization real 
 (1) Compile the code with "g++ **.cpp -o GR"
 
 (2) Run the code with: ./GR <edgelist> <parameters> <coordinates> <rootname_for_outfile> <total_layers>. 
-	
- <edgelist> <parameters> and <coordinates> are the files for each network from empirical data. <rootname_for_outfile> is the rootname of files for the output. Total_layers is the total layers you want to renormalize. 
+<edgelist> <parameters> and <coordinates> are the files for each network from empirical data. <rootname_for_outfile> is the rootname of files for the output. Total_layers is the total layers you want to renormalize. 
  
 For example: run the code: ./GR data/cargoshipsBB_edgelist.txt data/cargoshipsBB_Final_parameters.txt data/cargoshipsBB_coordinates.txt data/cargoshipsBB 3
 It will renormalize the cargoship network to layer 3.
