@@ -1,13 +1,13 @@
 # Geometric-renormalization-of-weighted-network
 # Codes and data sets for "Geometric renormalization of weighted networks".
-# Citation: Muhua Zheng, Guillermo García-Pérez, Marián Boguñá, and M. Ángeles Serrano, Geometric renormalization of weighted networks, arXiv:2307.00879 (2023).
+Citation: Muhua Zheng, Guillermo García-Pérez, Marián Boguñá, and M. Ángeles Serrano, Geometric renormalization of weighted networks, arXiv:2307.00879 (2023).
 
 
 In the folder "data", we give the empirical data. There are 3 files for each network:
 
 "**_edgelist.txt"-------edge list file for each line indicates an edge node_i---node_j---weights_wij
 
-"**_coordinates.txt"----coordinates for each node. Each line indicates node kappa theta. Noted that node index has been reasigned by ascending theta. The corresponding edge list is inconsistent.  
+"**_coordinates.txt"----coordinates for each node. Each line indicates node kappa theta. Noted that node index has been reasigned by ascending theta. The corresponding edge lists are consistent.  
 
 "**_parameters.txt"-----The parameters:  # N	beta	mu		a		eta		alpha		epsilon2		chi2            
 
