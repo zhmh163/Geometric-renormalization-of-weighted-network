@@ -14,12 +14,16 @@ In the folder "data", we give the empirical data. There are 3 files for each net
 There are 4 C++ codes with different versions of geometric renormalization real network:
 
 (I) 	Renormalization_weight_network_Max.cpp----the code for sup-GRW 
+
 (II)	Renormalization_weight_network_Sum.cpp----the code for sum-GRW 
+
 (III)	Renormalization_weight_network_Phi.cpp----the code for phi-GRW 
+
 (IV)	Renormalization_Binarized.cpp----the code for binarized GR, i.e., it is for the unweighted network. 
 
 (1) Compile the code with "g++ **.cpp -o GR"
-(2) run the code with: ./GR <edgelist> <parameters> <coordinates> <rootname_for_outfile> <total_layers>. 
+
+(2) Run the code with: ./GR <edgelist> <parameters> <coordinates> <rootname_for_outfile> <total_layers>. 
 	
  <edgelist> <parameters> and <coordinates> are the files for each network from empirical data. <rootname_for_outfile> is the rootname of files for the output. Total_layers is the total layers you want to renormalize. 
  
